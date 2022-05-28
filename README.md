@@ -1,4 +1,4 @@
-# Missing-Number-PY
+# Missing-Number
 Leetcode practice #268
 
 ## Built With
