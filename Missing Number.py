@@ -12,3 +12,9 @@ class Solution:
         # Solution 2
         n = len(nums)
         return n * (n+1) / 2 - sum(nums)
+
+        # Solution 3
+        total = 0
+        for i in range(len(nums) + 1):
+            total += i
+        return total - sum(nums)
